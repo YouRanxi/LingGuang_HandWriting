@@ -1,0 +1,22 @@
+# ==================== 换行符统一 ====================
+# 仓库内一律以 LF 存储，检出时按规则转换。
+# 不依赖每个开发者本机的 core.autocrlf 设置，行为可预期。
+
+* text=auto
+
+# 批处理脚本必须 CRLF。
+# cmd.exe 对 LF 结尾的标签跳转（goto :label）与多行 if/for 块处理不可靠，
+# 本项目 Reset.bat 里就有 for 循环与多行 if 块。
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 明确按文本处理的源码与文档
+*.cs   text
+*.md   text
+*.ini  text
+
+# 二进制资源不做任何转换
+*.ico  binary
+*.png  binary
+*.jpg  binary
+*.exe  binary
