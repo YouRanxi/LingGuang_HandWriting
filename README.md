@@ -12,7 +12,7 @@
 
 ## 下载
 
-到 [**Releases**](../../releases/latest) 下载 `LingGuangInk-vX.Y.Z.zip`，解压后双击 `Start.bat` 即可。
+到 [**Releases**](../../releases/latest) 下载 `LingGuangInk-v1.16.1.zip`，解压后双击 `Start.bat` 即可。
 
 无需安装 .NET，也无需任何开发环境。
 
